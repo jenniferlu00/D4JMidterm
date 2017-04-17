@@ -1,0 +1,128 @@
+.blur img{
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+
+    }
+.blur img{
+    -webkit-filter: blur(3px);
+}
+.blur{
+    position: relative;
+    width: 1440px;
+    
+    }
+
+#hero{
+    width: 1430px;
+    height: 680px;
+}
+.blur p{
+    width: 500px;
+    height: 300px;
+    opacity: 1;
+    position: absolute;
+    top:10%;
+    left:30%;
+    background-color: red;
+    padding: 5%;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    line-height: 70px;
+}
+span{
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+a:link {
+    text-decoration: underline;
+    color:red;
+}
+
+a:visited {
+    text-decoration: none;
+    color:black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.content {
+	width: 700px;
+	position: relative;
+	top: 60px;
+	left: 400px;
+	
+
+}
+.firstLetter{
+  float       : left;
+  font-size   : 3.50em;
+  line-height : 30px;
+  margin      : 0.205em 0.153em 0 0;
+}
+
+.firstLetter + span{
+  margin-left : -0.2em;
+}
+.sentence{
+    font-size: 20px;
+}
+
+.content p{
+    line-height: 40px;
+    font-size: 20px;
+}
+.subway{
+    width: 1430px;
+}
+.subway img{
+    width: 1430px;
+    height: 700px;
+    position: relative;
+    
+}
+.sidebyside{
+    width: 1430px;
+    height: 600px;
+
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    margin: 40px;
+}
+
+
+figcaption{
+    display: block;
+    position: absolute;
+    left: 400px;
+    color:grey;
+}
+.sidebyside li{
+    width: 500px;
+    height: 400px;
+
+}
+.sidebyside img{
+    width: 700px;
+    height: 500px;
+    margin-right: 10px;
+
+}
+
+
